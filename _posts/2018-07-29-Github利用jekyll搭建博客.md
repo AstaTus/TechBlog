@@ -16,3 +16,7 @@
 8. cd <name>
 9. 启动：bundle exec jekyll serve --port 1234(如果有错误 查看缺少哪些包 则执行 gem install <package name>安装)
 
+##### 注意事项
+
+- gem代理：gem install --http-proxy http://127.0.0.1:1080 <package name>
+
